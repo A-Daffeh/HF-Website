@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\AboutController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group([], function() {
+    Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/services', [ServicesController::class, 'index'])->name('services');
+    Route::get('/about-us', [AboutController::class, 'index'])->name('about-us');
 });
