@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
-class HomeController extends Controller
+class HFHomeController extends Controller
 {
     public function index() {
-        return view('web.home');
+        return view('web.hfhome');
     }
 }

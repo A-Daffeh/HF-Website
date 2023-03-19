@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HFHomeController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\AboutController;
 
@@ -18,7 +18,7 @@ use App\Http\Controllers\AboutController;
 */
 
 Route::group([], function() {
-    Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/index', [HFHomeController::class, 'index'])->name('hfhome');
     Route::get('/services', [ServicesController::class, 'index'])->name('services');
     Route::get('/about-us', [AboutController::class, 'index'])->name('about-us');
 });
