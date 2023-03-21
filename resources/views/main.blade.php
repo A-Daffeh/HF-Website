@@ -5,7 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name')}}</title>
-
+        <link rel="stylesheet" href="{{ asset('css/layouts/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/layouts/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/web/about.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/web/services.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/web/hfhome.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/web/contact.css') }}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
