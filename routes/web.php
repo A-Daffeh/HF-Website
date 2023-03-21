@@ -22,3 +22,7 @@ Route::group([], function() {
     Route::get('/services', [ServicesController::class, 'index'])->name('services');
     Route::get('/about-us', [AboutController::class, 'index'])->name('about-us');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
