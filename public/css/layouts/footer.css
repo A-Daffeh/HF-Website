@@ -1,0 +1,36 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #9fdbeb;
+}
+
+.hf-footer, .hf-fsocial ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hf-footer {
+    justify-content: space-around;
+}
+
+.hf-footer h3 {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.hf-footer ul li {
+    list-style-type: none;
+}
+
+.hf-fcontact ul img {
+    width: 20px;
+    height: 20px;
+}
+
+.hf-fsocial ul img {
+    width: 30px;
+    height: 30px;
+    padding: 0 3px;
+}
