@@ -1,9 +1,9 @@
 @extends('main')
 
 @section('content')
-<section class = "contact-body">
+<section class = "hf-sections">
     <div class = "hf-contactMain">
-        <h1 class="hf-he hf-contact-header">Interested in Contacting us? </h1> <!-- and element can have more than 1 class, just add a space between, the 2 different styles can be applied to one element -->
+        <h1 class="hf-he hf-contact-header">Interested in Contacting us? </h1>
         <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC, please complete this form </p>
 
         <form class = "hf-form">
@@ -27,21 +27,16 @@
 
             <div class = "hf-comments"> 
                 <label class  = " hf-labels" for="comments">Reason for contact</label>
-                <br> <!-- allows the label to be on the top instead of inline -->
+                <br>
                 <textarea class="comment-box"></textarea>
             </div>
             
 
              <div class = "hf-submit">
-                <input class = "hf-submitbtn" type="submit"> <!-- im suggesting the submit button go under the comment box rather than next to it -->
+                <input class = "hf-submitbtn" type="submit">
              </div>
 
         </form>
     </div>
 </section>
-
- 
-    
-
-
 @endsection

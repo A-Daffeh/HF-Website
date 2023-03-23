@@ -25,17 +25,23 @@
             }
 
             #page-container {
-                position: relative;
-                min-height: 100vh;
                 background-color: rgb(255, 228, 233);
+            }
+
+            #content-wrap {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         </style>
     </head>
     <body class="antialiased">
         <div id="page-container">
             @include('layouts.header')
-
-                @yield('content')
+                <main id="content-wrap">
+                    @yield('content')
+                </main>
 
             @include('layouts.footer')
         </div>
