@@ -1,3 +1,78 @@
-.test {
-    background-color: red;
+.hf-he {
+    text-align: center ;
 }
+
+.hf-contact-para { /* for the contact page paragraph explaining details */
+    font-size: 20px;
+}
+
+.hf-contact-header { /* the main header for the contact page */
+    font-size: 25px;
+}
+
+.hf-contactMain {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+}
+
+.contact-body {
+   background-color:  rgb(255, 228, 233);
+
+}
+
+.hf-box { /* specifies the width and height of the text boxes */
+    width: 450px; 
+    height: 50px; 
+    margin-top: 20px;
+
+
+    /* note : the height of the comment box might need to be changed in the future */
+}
+
+
+
+
+.hf-form { /* represents the style for the form container */
+    margin: 20px auto;
+    padding: 10px; /* add padding to the form container */
+    width: 50%;
+
+
+}
+
+
+.hf-labels {
+
+margin-top: 20px;
+
+
+}
+
+
+.comment-box {
+    width: 450px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.hf-submitbtn {
+    margin-left: 500px;
+    position: relative; 
+    top: -50px; /* makes it go upwards */
+    border-radius: 15px; /* makes all corners consistent in roundness */
+    width: 170px;
+    height: 45px;
+    background-color: rgb(106, 180, 204);
+    border-style: solid;
+
+}
+
+input::placeholder { /* styles all the placeholders */
+    font-size: 18px;
+}
+
+
+
+
