@@ -1,0 +1,25 @@
+.hf-services {
+    background-color: rgb(255, 228, 233);
+}
+
+.hf-services-cont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.hf-services-cont, .hf-services-hist {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hf-services-hist h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.hf-services-item {
+    width: calc((100% / 2) - 200px);
+    text-align: justify;
+}

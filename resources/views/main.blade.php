@@ -23,13 +23,22 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            #page-container {
+                position: relative;
+                min-height: 100vh;
+                background-color: rgb(255, 228, 233);
+            }
         </style>
     </head>
     <body class="antialiased">
-        @include('layouts.header')
+        <div id="page-container">
+            @include('layouts.header')
 
-            @yield('content')
+                @yield('content')
 
-        @include('layouts.footer')
+            @include('layouts.footer')
+        </div>
+        
     </body>
 </html>
