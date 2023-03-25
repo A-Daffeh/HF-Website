@@ -3,10 +3,10 @@
         <div class="hf-flinks">
             <h3>Sites</h3>
             <ul>
-                <li><a href="{{ route('hfhome') }}">Home</a></li>
-                <li><a href="{{ route('services') }}">Services</a></li>
-                <li><a href="{{ route('about-us') }}">About Us</a></li>
-                <li><a href="{{ route('contact') }}">Contact</a></li>
+                <li><a href="{{ route('hfhome') }}" data-content="Home">Home</a></li>
+                <li><a href="{{ route('services') }}" data-content="Services">Services</a></li>
+                <li><a href="{{ route('about-us') }}" data-content="About Us">About Us</a></li>
+                <li><a href="{{ route('contact') }}" data-content="Contact">Contact</a></li>
             </ul>
         </div>
 
