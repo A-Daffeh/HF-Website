@@ -3,8 +3,12 @@
     margin: 0 auto;
 }
 
-.hf-services-hist {
+.hf-services-hist  {
     text-align: center;
+}
+
+.hf-services-hist h2 {
+    font-variant: small-caps;
 }
 
 .hf-services-cont {
@@ -31,4 +35,8 @@
 .gallery img {
     width: 200px;
     height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }

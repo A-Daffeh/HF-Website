@@ -26,7 +26,6 @@
     height: 300px;
 }
 
-
 .hf-quote {
     text-align: center;
     padding: 20px;
@@ -42,4 +41,8 @@
 .hf-quote h2 {
     font-size: 30px;
     font-variant: small-caps;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
