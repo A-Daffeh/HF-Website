@@ -34,6 +34,15 @@
                 justify-content: center;
                 align-items: center;
             }
+
+            .hf-login {
+                margin: 60px 0;
+            }
+
+            .hf-login-submit {
+                background-color: #9fdbeb;
+                padding: 10px 20px;
+            }
         </style>
     </head>
     <body class="antialiased">

@@ -26,7 +26,7 @@
     </div>
 
     <div class="hf-quote">
-        <h2>Testimonials</h2>
+        <h2>Testimonial</h2>
         <p>"Flour and butter, cream and sugar, words and images, all the ingredients for a rich, tasty story."</p>
 
         <p>-Rona Simmons</p>
