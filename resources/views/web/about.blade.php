@@ -18,7 +18,7 @@
 
         <div class="hf-about-item">
             <p>
-                We offer genuine compassion,care,recovery and hope. We truly believe that everyone deserves to live a full life,
+                We offer genuine compassion, care, recovery and hope. We truly believe that everyone deserves to live a full life,
                 and it is our goal to ensure that it can happen.
             </p>
             <img src="{{ asset('img/about-img-2.jpeg') }}" alt="About Img-2">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="hf-quote">
-        <h2>Testimonial</h2>
+        <h2>Testimonials</h2>
         <p>"Flour and butter, cream and sugar, words and images, all the ingredients for a rich, tasty story."</p>
 
         <p>-Rona Simmons</p>

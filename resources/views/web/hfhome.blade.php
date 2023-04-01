@@ -22,7 +22,7 @@
             We accept private and Medical clients. The home is close to Alderwood mall where residents and families can meet for lunch.
             Delivering quality service in a safe environment is our number one priority.
             </p>
-            <img src="{{ asset('img/homepic.jpg') }}" alt="About Img-2">
+            <img src="{{ asset('img/richard.jpg') }}" alt="About Img-2">
         </div>
     </div>
 </section>
