@@ -96,6 +96,7 @@
   /* Submit button */
   .hf-submitbtn {
     margin: 20px auto;
+<<<<<<< HEAD
     position: relative;
     top: 0;
     border-radius: 15px;
@@ -114,6 +115,51 @@
   input::placeholder {
     font-size: 14px;
   }
+=======
+    padding: 10px; /* add padding to the form container */
+    width: 50%;
+
+
+}
+
+
+.hf-labels {
+
+margin-top: 20px;
+
+
+}
+
+
+.comment-box {
+    width: 450px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.hf-submitbtn {
+    margin-right: 500px;
+    position: relative; 
+    top: 10px; /* makes it go upwards */
+    border-radius: 15px; /* makes all corners consistent in roundness */
+    width: 170px;
+    height: 45px;
+    background-color: rgb(106, 180, 204);
+    border-style: solid;
+    
+
+}
+
+.hf-submitbtn:hover {
+   background-color: rgb(54, 174, 214);
+}
+
+input::placeholder { /* styles all the placeholders */
+    font-size: 18px;
+}
+
+>>>>>>> origin/feature/alieu22
 
 
 
