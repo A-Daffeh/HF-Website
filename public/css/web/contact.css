@@ -51,5 +51,69 @@
     
 }
 
+/* as of right now starting here  we are in the mobile view. the new code should go under here to style the mobile contact portion */
+
+/* mobile view code */
+/* Mobile styles */
+
+/* Center header */
+.hf-he {
+    text-align: left;
+  }
+  
+  /* Contact paragraph */
+  .hf-contact-para {
+    font-size: 11ppx;
+    text-align: left;
+    word-wrap: break-word;
+   
+  }
+  
+  
+  /* Contact header */
+  .hf-contact-header {
+    font-size: 20px;
+  }
+  
+  /* Form container */
+  .hf-contactMain, .hf-form {
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Form fields */
+  .hf-form div {
+    margin-top: 10px;
+  }
+  
+  /* Input fields */
+  .hf-box, .comment-box {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  /* Submit button */
+  .hf-submitbtn {
+    margin: 20px auto;
+    position: relative;
+    top: 0;
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    background-color: #9fdbeb;
+    border-style: solid;
+  
+  }
+
+  .hf-submit {
+    text-align: center;
+  }
+  
+  /* Placeholder text */
+  input::placeholder {
+    font-size: 14px;
+  }
+
 
 

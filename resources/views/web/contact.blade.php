@@ -4,7 +4,7 @@
 <section class = "hf-sections">
     <div class = "hf-contactMain">
         <h2 class="hf-he hf-contact-header">Interested in Contacting us? </h2>
-        <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC, please complete this form </p>
+        <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC,<br> please complete this form </p>
 
         <form class = "hf-form">
             <div class = "hf-name">
