@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name')}}</title>
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <link rel="stylesheet" href="{{ asset('css/layouts/header.css') }}">
         <link rel="stylesheet" href="{{ asset('css/layouts/footer.css') }}">
         <link rel="stylesheet" href="{{ asset('css/web/about.css') }}">
@@ -27,13 +28,7 @@
             #page-container {
                 background-color: rgb(255, 228, 233);
             }
-
-            #content-wrap {
-                position: relative;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+       
         </style>
     </head>
     <body class="antialiased">

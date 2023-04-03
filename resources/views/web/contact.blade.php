@@ -3,12 +3,12 @@
 @section('content')
 <section class = "hf-sections">
     <div class = "hf-contactMain">
-        <h1 class="hf-he hf-contact-header">Interested in Contacting us? </h1>
+        <h2 class="hf-he hf-contact-header">Interested in Contacting us? </h2>
         <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC, please complete this form </p>
 
         <form class = "hf-form">
             <div class = "hf-name">
-                <label class = "hf-Labels" for="fullname">Name</label>
+                <label class = "hf-labels" for="fullname">Name</label>
                 <br>
                 <input class = "hf-box" type="text" placeholder = "Enter your name" id = "fullname" pattern="[a-zA-Z]{1,15}" title="(required)" name="fullName" required>
             </div>

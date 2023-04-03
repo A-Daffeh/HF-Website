@@ -1,11 +1,4 @@
-.hf-services-hist, .hf-services-cont {
-    width: 80%;
-    margin: 0 auto;
-}
 
-.hf-services-hist {
-    text-align: center;
-}
 
 .hf-services-cont {
     display: flex;
