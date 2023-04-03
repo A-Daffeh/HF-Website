@@ -49,7 +49,7 @@
         </div>
         <img src="{{ asset('img/gallery-2.jpeg') }}" alt="Gallery Img-2">
         <!-- <img src="{{ asset('img/gallery-3.jpeg') }}" alt="Gallery Img-3"> -->
-        <img src="{{ asset('img/gallery-4.jpeg') }}" alt="Gallery Img-4">
+        <!-- <img src="{{ asset('img/gallery-4.jpeg') }}" alt="Gallery Img-4"> -->
         <img src="{{ asset('img/gallery-5.jpeg') }}" alt="Gallery Img-5">
         <img src="{{ asset('img/gallery-6.jpeg') }}" alt="Gallery Img-6">
         <img src="{{ asset('img/gallery-7.jpeg') }}" alt="Gallery Img-7">
