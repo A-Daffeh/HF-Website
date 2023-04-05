@@ -1,32 +1,54 @@
 
 
-.hf-services-cont {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 600px) {
+    .hf-services-hist, .hf-services-cont {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .hf-services-hist  {
+        text-align: center;
+    }
+    
+    .hf-services-hist h2 {
+        font-variant: small-caps;
+    }
+    
+    .hf-services-cont {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hf-services-item {
+        width: calc((100% / 3) - 6px);
+        text-align: center;
+        background-color: #9fdbeb;
+        margin: 3px;
+        border-radius: 20px;
+    }
+    
+    .gallery {
+        width: 75%;
+        margin: 20px auto;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+
+    }
+    
+    .gallery img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .gallery-p {
+        margin-top: -5px;
+        text-align: center;
+    }
 }
 
-.hf-services-item {
-    width: calc((100% / 3) - 6px);
-    text-align: center;
-    background-color: #9fdbeb;
-    margin: 3px;
-    border-radius: 20px;
-}
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    width: 75%;
-    margin: 20px auto;
-    align-items: center;
-}
 
-.gallery img {
-    width: 200px;
-    height: 200px;
-}
-
+/*-- All mobile page code will be written here ->(after this line) --*/
