@@ -1,10 +1,33 @@
+/* desktop version */
+@media screen and (min-width: 600px) {
 
-.header {
-    background-color:#9fdbeb;
-    color:#ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*i think this goes here similiar to the contact.css one */
+
+    .header {
+        background-color:#9fdbeb;
+        color:#ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+
+    .nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+ 
+    .nav a {
+        color:#ffffff;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+   
 }
 
 .header img {
@@ -13,15 +36,124 @@
 
 }
 
-.nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.nav a {
+    color: black;
 }
 
-.nav a {
-    color:#ffffff;
-    text-decoration: none;
-    margin: 10px;
+.nav a:hover {
+    color: red;
 }
+
+.nav a.active,
+.nav a.active:hover {
+    color: green;
+}
+
+
+
+
+
+/* code for the mobile nav bar version goes here  : */ 
+
+@media screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      background-color: #9fdbeb; /* although its blue, you have to reposition the background strip */
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .header img {
+      margin-bottom: 10px;
+    }
+  
+    .nav-toggle {
+      display: block;
+      position: relative;
+      z-index: 1;
+      margin: 0 0 0 auto;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+      background-color: #9fdbeb;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  
+    .nav-toggle:focus {
+      outline: none;
+    }
+  
+    .nav-toggle-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 2px;
+      background-color: #ffffff;
+      transition: background-color 0.2s ease-out;
+    }
+  
+    .nav-toggle-icon::before,
+    .nav-toggle-icon::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      transition: transform 0.2s ease-out;
+    }
+  
+    .nav-toggle-icon::before {
+      transform: translateY(-6px);
+    }
+  
+    .nav-toggle-icon::after {
+      transform: translateY(6px);
+    }
+  
+    .nav-toggle.active .nav-toggle-icon {
+      background-color: transparent;
+    }
+  
+    .nav-toggle.active .nav-toggle-icon::before {
+      transform: translateY(0) rotate(45deg);
+    }
+  
+    .nav-toggle.active .nav-toggle-icon::after {
+      transform: translateY(0) rotate(-45deg);
+    }
+  
+    .nav-toggle.active + .nav {
+      display: block;
+      margin: 10px 0 0 0;
+      padding: 10px;
+      background-color: #9fdbeb;
+    }
+  
+    .nav a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 5px 0;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .nav {
+        list-style: none; /* remove bullet points */
+        text-align: right; /* center links */
+      }
+      
+     
+      
+  }
+  

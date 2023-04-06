@@ -3,7 +3,7 @@
 @section('content')
 <section class = "hf-sections">
     <div class = "hf-contactMain">
-        <h2 class="hf-he hf-contact-header">Interested in Contacting us? </h2>
+        <h2 class="hf-he hf-contact-header hf-center">Interested in Contacting us? </h2>
         <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC,<br> please complete this form </p>
 
         <form class = "hf-form">
@@ -26,9 +26,9 @@
             </div>
 
             <div class = "hf-comments"> 
-                <label class  = " hf-labels" for="comments">Reason for contact</label>
+                <label class  = " hf-Labels" for="comments">Reason for contact</label>
                 <br>
-                <textarea class="comment-box"></textarea>
+                <textarea class="comment-box" rows=500> </textarea>
             </div>
             
 

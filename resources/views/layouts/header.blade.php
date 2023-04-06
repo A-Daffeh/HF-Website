@@ -1,10 +1,26 @@
+
 <header class="header">
-    <img src="{{ asset('img/projectlogo.jpg') }}" alt="HF Logo">
-    <ul class="nav">
-        <li><a href="{{ route('hfhome') }}" data-content="Home">Home</a></li>
-        <li><a href="{{ route('services') }}" data-content="Services">Services</a></li>
-        <li><a href="{{ route('about-us') }}" data-content="About Us">About Us</a></li>
-        <li><a href="{{ route('contact') }}" data-content="Contact">Contact</a></li>
-        <li><a href="{{ route('login') }}" data-content="Log in">Log In</a></li>
-    </ul>
+  <img src="{{ asset('img/projectlogo.jpg') }}" alt="HF Logo">
+  <button class="nav-toggle" aria-label="toggle navigation">
+    <span class="nav-toggle-icon"></span>
+  </button>
+  <ul class="nav main-nav">
+    <li class="nav-item"><a href="{{ route('hfhome') }}" class="{{ request()->is('/') ? 'active' : '' }}" data-content="Home">Home</a></li>
+    <li class="nav-item"><a href="{{ route('services') }}" class="{{ request()->is('services') ? 'active' : '' }}" data-content="Services">Services</a></li>
+    <li class="nav-item"><a href="{{ route('about-us') }}" class="{{ request()->is('about-us') ? 'active' : '' }}" data-content="About Us">About Us</a></li>
+    <li class="nav-item"><a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}" data-content="Contact">Contact</a></li>
+    <li class="nav-item"><a href="{{ route('login') }}" class="{{ request()->is('login') ? 'active' : '' }}" data-content="Log in">Log In</a></li>
+  </ul>
 </header>
+
+<script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav');
+      
+      navToggle.addEventListener('click', () => {
+        navToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+    </script>
+
+    </body>
