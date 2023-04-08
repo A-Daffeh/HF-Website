@@ -26,3 +26,36 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .para {
+        
+        font-size: 70%;
+        width: 70%;
+        text-align: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .hf-about-hist {
+        text-align: center;
+    }
+
+    .hf-about-item-second {
+        display: flex;
+        flex-flow: column;
+    }
+
+    #a {
+        order: 2
+    }
+}
