@@ -46,3 +46,22 @@
         font-variant: small-caps;
     }
 }
+
+.hf-quote h2 {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.hf-about-hist {
+    font-variant: small-caps;
+}
+
+.hf-about-cont {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.hf-quote {
+    padding-left: 25px;
+    padding-right: 25px;
+}

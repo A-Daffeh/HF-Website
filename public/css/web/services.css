@@ -12,6 +12,7 @@
     
     .hf-services-hist h2 {
         font-variant: small-caps;
+        font-size: 30px;
     }
     
     .hf-services-cont {
@@ -91,4 +92,10 @@
     .hf-services-hist  {
         text-align: center;
     }
+    .hf-services-hist h2 {
+        font-variant: small-caps;
+        font-size: 30px;
+    }
+
 }
+
