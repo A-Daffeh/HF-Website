@@ -81,6 +81,7 @@
 
     .gallery-p {
         text-align: center;
+        margin-top: -1px;
     }
 
     .gallery-div {
@@ -90,5 +91,4 @@
     .hf-services-hist  {
         text-align: center;
     }
-
 }
