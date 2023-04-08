@@ -33,10 +33,62 @@
         width: 75%;
         margin: 20px auto;
         align-items: center;
+        display: flex;
+        gap: 10px;
+        /* margin-left: 1px; */
     }
     
     .gallery img {
         width: 200px;
         height: 200px;
+    }
+
+    .gallery-p {
+        margin-top: -5px;
+        text-align: center;
+    }
+}
+
+
+
+/*-- All mobile page code will be written here ->(after this line) --*/
+
+@media screen and (max-width: 600px) {
+    .hf-services-cont {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow:  wrap; 
+    }
+
+    .hf-services-item {
+        width: calc((100% / 2) - 6px);
+        text-align: center;
+        background-color: #9fdbeb;
+        margin: 3px;
+        border-radius: 20px;
+        font-size: small;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: wrap;
+        width: 75%;
+        margin: 20px auto;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gallery-p {
+        text-align: center;
+        margin-top: -1px;
+    }
+
+    .gallery-div {
+        width: 45%;
+    }
+
+    .hf-services-hist  {
+        text-align: center;
     }
 }
