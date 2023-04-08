@@ -12,7 +12,7 @@
     }
     
     .hf-contact-header {
-        font-size: 30px;
+        font-size: 20px;
         font-variant: small-caps;
         text-align: center;
     }
@@ -90,9 +90,9 @@
   
   
   /* Contact header */
-  .hf-contact-header {
+  /* .hf-contact-header {
     font-size: 20px;
-  }
+  } */
   
   /* Form container */
   .hf-contactMain, .hf-form {
