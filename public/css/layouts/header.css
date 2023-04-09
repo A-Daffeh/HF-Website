@@ -41,12 +41,12 @@
 }
 
 .nav a:hover {
-    color: red;
+    color:#7a7ab6;
 }
 
 .nav a.active,
 .nav a.active:hover {
-    color: green;
+  color:#7a7ab6;
 }
 
 
