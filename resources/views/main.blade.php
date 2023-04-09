@@ -30,18 +30,6 @@
                 position: relative;
                 min-height: 100vh;
             }
-
-            #content-wrap {
-                padding-bottom: 11rem;    /* Footer height */
-            }
-
-            #footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                height: 11rem;            /* Footer height */
-            }
-       
         </style>
     </head>
     <body class="antialiased">

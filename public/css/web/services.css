@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 451px) {
     .hf-services-hist, .hf-services-cont {
         width: 80%;
         margin: 0 auto;
@@ -54,7 +54,7 @@
 
 /*-- All mobile page code will be written here ->(after this line) --*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .hf-services-cont {
         width: 80%;
         margin: 0 auto;
@@ -74,7 +74,7 @@
     .gallery {
         display: flex;
         flex-flow: wrap;
-        width: 75%;
+        width: 80%;
         margin: 20px auto;
         align-items: center;
         gap: 10px;

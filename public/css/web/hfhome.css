@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 451px) {
     .hf-about-cont {
         display: flex;
         flex-flow: row wrap;
@@ -26,23 +26,19 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
 
     img {
-        width: 70%;
+        width: 80%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10px auto;
     }
 
     .para {
-        
-        font-size: 70%;
-        width: 70%;
+        width: 80%;
         text-align: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        margin: 5px auto;
+        text-align: justify;
     }
 
     .hf-about-hist {

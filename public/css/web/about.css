@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 451px) {
     .hf-about-cont {
         display: flex;
         flex-flow: row wrap;
@@ -59,6 +59,7 @@
 .hf-about-cont {
     padding-left: 25px;
     padding-right: 25px;
+    text-align: justify;
 }
 
 .hf-quote {

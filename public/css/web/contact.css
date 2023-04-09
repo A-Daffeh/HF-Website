@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 451px) {
     .hf-he {
         text-align: center ;
     }
@@ -21,9 +21,6 @@
       margin-top: 20px;
       display: inline-block;
     }
-
-    
-    
     
     .hf-center {
       text-align: center;
@@ -76,23 +73,19 @@
 /* Mobile styles */
 
 /* Center header */
-.hf-he {
-    text-align: left;
-  }
+.hf-contact-header {
+  text-align: center;
+  font-variant: small-caps;
+}
   
   /* Contact paragraph */
   .hf-contact-para {
-    font-size: 11ppx;
+    font-size: 18px;
     text-align: center;
     word-wrap: break-word;
    
   }
   
-  
-  /* Contact header */
-  .hf-contact-header {
-    font-size: 20px;
-  }
   
   /* Form container */
   .hf-contactMain, .hf-form {
@@ -122,7 +115,6 @@
     height: 35px;
     background-color: #9fdbeb;
     border-style: solid;
-  
   }
 
   .hf-submit {
@@ -132,6 +124,16 @@
   /* Placeholder text */
   input::placeholder {
     font-size: 14px;
+  }
+
+  .hf-contactMain {
+    padding: 0 25px;
+  }
+
+  .hf-login-submit {
+    background-color: #9fdbeb;
+    padding: 10px 15px;
+    margin-bottom: 10px;
   }
 
 
