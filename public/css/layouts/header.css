@@ -1,5 +1,5 @@
 /* desktop version */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 450px) {
 
     /*i think this goes here similiar to the contact.css one */
 
@@ -55,7 +55,7 @@
 
 /* code for the mobile nav bar version goes here  : */ 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .header {
       flex-direction: column;
       align-items: flex-start;

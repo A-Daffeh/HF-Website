@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 450px) {
     .hf-about-cont {
         display: flex;
         flex-flow: row wrap;
