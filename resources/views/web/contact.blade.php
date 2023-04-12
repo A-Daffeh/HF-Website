@@ -10,7 +10,7 @@
             <div class = "hf-name">
                 <label class = "hf-labels" for="fullname">Name</label>
                 <br>
-                <input class = "hf-box" type="text" placeholder = "Enter your name" id = "fullname" pattern="[a-zA-Z]{1,15}" title="(required)" name="fullName" required>
+                <input class = "hf-box" type="text" placeholder = "Enter your name" id = "fullname" pattern="[a-zA-Z]{1,15}(\s[a-zA-Z]{1,15})?" title="(required)" name="fullName" required>
             </div>
 
             <div class = "hf-number">
@@ -22,7 +22,7 @@
             <div class = "hf-email">
                 <label class = "hf-Labels" for="email">Email </label>
                 <br>
-                <input class = "hf-box" type="text" placeholder = "Enter your email" id = "email" pattern="[a-zA-Z]{1,15}" title="(required)" name="email" required >
+                <input class = "hf-box" type="text" placeholder = "Enter your email" id = "email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="(required)" name="email" required >
             </div>
 
             <div class = "hf-comments"> 
