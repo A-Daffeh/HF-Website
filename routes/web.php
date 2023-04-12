@@ -23,6 +23,8 @@ Route::group([], function() {
     Route::get('/services', [ServicesController::class, 'index'])->name('services');
     Route::get('/about-us', [AboutController::class, 'index'])->name('about-us');
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+    Route::post('/contact/create', [ContactController::class, 'store'])->name('contact.create');
+    Route::get('/contact/success', [ContactController::class, 'contactSuccess'])->name('contact.success');
 });
 
 Auth::routes();

@@ -136,5 +136,7 @@
     margin-bottom: 10px;
   }
 
-
+.hf-submit input {
+  cursor: pointer;
+}
 
