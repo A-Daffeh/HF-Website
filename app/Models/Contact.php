@@ -25,4 +25,6 @@ class Contact extends Model
     protected $hidden = [
         '_token'
     ];
+
+  
 }

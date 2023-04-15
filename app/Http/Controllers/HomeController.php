@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class HomeController extends Controller
 {
@@ -21,8 +22,16 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+   /*
+     public function index()
     {
         return view('home');
     }
+*/
+
+public function index()
+{
+    $contacts = Contact::all();
+    return view('home', compact('contacts'));
+}
 }
