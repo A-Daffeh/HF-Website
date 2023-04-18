@@ -11,7 +11,7 @@ class ContactController extends Controller
     public function index() {
         $contacts = Contact::all();
 
-        return view('web.contact', compact('contacts', $contacts));
+        return view('web.contact', compact('contacts'));
     }
 
     public function contactSuccess() {

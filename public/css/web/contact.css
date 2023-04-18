@@ -17,7 +17,7 @@
         text-align: center;
     }
 
-    .hf-Labels  { /* delas with the space  between the label and the text box */
+    .hf-Labels  { /* delays with the space  between the label and the text box */
       margin-top: 20px;
       display: inline-block;
     }
