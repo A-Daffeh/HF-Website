@@ -25,6 +25,8 @@ Route::group([], function() {
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
     Route::post('/contact/create', [ContactController::class, 'store'])->name('contact.create');
     Route::get('/contact/success', [ContactController::class, 'contactSuccess'])->name('contact.success');
+    Route::get('/contact/{id}/show', [ContactController::class, 'show'])->name('contact.show');
+    Route::delete('/contact/{id}/delete', [ContactController::class, 'destroy'])->name('contact.destroy');
 });
 
 Auth::routes();

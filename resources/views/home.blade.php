@@ -1,11 +1,11 @@
 @extends('layouts.app')
-<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('CONTACT INFORMATION') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,34 +14,40 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
-
-                    {{ __('BELOW IS PLACEHOLDER TEXT FOR THE TABLE. THE FORM DATA IS NOT ADDED IN THE TABLE YET ') }}
-
-                </div>
-                <Table class="carTable">
-          <thead> 
-
-           
-          <tr> 
-            <th>Name</th> 
-            <th>Phone number </th>
-            <th>Email address </th> 
-            <th>Reason for contact </th> 
-        </thead> 
-        
-
-         <tbody> 
-
-     
-         @foreach ($contacts as $contact)
-                                <tr>
-                                    <td>{{ $contact->full_name }}</td>
-                                    <td>{{ $contact->phone }}</td>
-                                    <td>{{ $contact->email }}</td>
-                                    <td>{{ $contact->reason }}</td>
-                                </tr>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Email</th>
+                                <th scope="col" colspan="2">Reason</th>
+                                <th colspan="2">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php $i = 0 ?>
+                            @foreach ($contacts as $contact)
+                            <tr>
+                                <th scope="row">{{ ++$i }}</th>
+                                <td>{{$contact->full_name;}}</td>
+                                <td>{{$contact->phone}}</td>
+                                <td>{{$contact->email}}</td>
+                                <td colspan="2">{{$contact->reason}}</td>
+                                <td>
+                                    
+                                    <form action="{{ route('contact.destroy',$contact->id) }}" method="POST">
+                                        <a class="btn btn-info btn-sm" href="{{ route('contact.show', $contact->id) }}">Show</a>
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
                             @endforeach
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
