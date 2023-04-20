@@ -1,14 +1,26 @@
 /* desktop version */
+.header strong {
+  font-variant: small-caps;
+}
 @media screen and (min-width: 451px) {
 
     /*i think this goes here similiar to the contact.css one */
 
     .header {
-        background-color: #1c2d93;
+        background-color: #1773ea;
         color:#ffffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+    }
+
+    .header strong {
+      font-size: 20px;
+    }
+
+    .nav-toggle {
+      display: none;
     }
 
    
@@ -46,7 +58,10 @@
 
 .nav a.active,
 .nav a.active:hover {
-  color:#7a7ab6;
+  color:#1c2d93;
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 
@@ -60,7 +75,9 @@
       flex-direction: column;
       align-items: flex-start;
       padding: 10px;
-      background-color: #1c2d93; /* although its blue, you have to reposition the background strip */
+      background-color: hsl(231, 68%, 34%); /* although its blue, you have to reposition the background strip */
+      color:#ffffff;
+      text-align:center;
     }
   
     .nav {

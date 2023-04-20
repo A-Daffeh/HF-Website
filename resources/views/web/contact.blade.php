@@ -3,7 +3,7 @@
 @section('content')
 <section class = "hf-sections">
     <div class = "hf-contactMain">
-        <h2 class="hf-he hf-contact-header hf-center">Interested in Contacting us? </h2>
+        <h1 class="h-first hf-he hf-contact-header hf-center">Interested in Contacting us? </h1>
         <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC,<br> please complete this form </p>
 
         <form class = "hf-form" action={{ route('contact.create') }} method="POST">

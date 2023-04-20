@@ -14,40 +14,37 @@
         font-variant: small-caps;
         font-size: 30px;
     }
+
+    .gallery {
+        width: 80%;
+        margin: auto;
+    }
     
-    .hf-services-cont {
+    .hf-services-cont, .gallery {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
     }
+
+    .gallery-div {
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+    }
     
     .hf-services-item {
         width: calc((100% / 3) - 6px);
+        margin: 3px;
         text-align: center;
         background-color: #9fdbeb;
-        margin: 3px;
         border-radius: 20px;
     }
     
-    .gallery {
-        width: 75%;
-        margin: 20px auto;
-        align-items: center;
-        display: flex;
-        gap: 10px;
-        /* margin-left: 1px; */
-    }
-    
-    .gallery img {
-        width: 200px;
-        height: 200px;
+    .gallery-img {
+        width: 100%;
+        height: 300px;
     }
 
-    .gallery-p {
-        margin-top: -5px;
-        text-align: center;
-    }
 }
 
 
@@ -97,5 +94,26 @@
         font-size: 30px;
     }
 
+}
+
+.gallery-div {
+    position: relative;
+}
+
+.gallery-div::before {
+    content: "HF HOME CARE";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity .2s ease;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery-div:hover::before {
+    opacity: 1;
+    transform: opacity .2s ease;
 }
 

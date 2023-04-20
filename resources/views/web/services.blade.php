@@ -3,7 +3,7 @@
 @section('content')
 <section class="hf-sections">
     <div class="hf-services-hist">
-        <h2>Our Services</h2>
+        <h1 class="h-first">Our Services</h1>
         <p>
             We serve those who are elderly, have developmental disabilities,  mentally or physical
             challenged. Our services include:
@@ -37,36 +37,32 @@
         </div>
     </div>
 
+    
     <div class="hf-services-hist">
-        <h2>Checkout Our Place</h2>
+        <h1 class="h-first">Checkout Our Place</h1>
     </div>
 
     <div class="gallery">
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-5.jpeg') }}" alt="Gallery Img-5">
-            <p class="gallery-p">Kitchen</p>
+            <img class ="gallery-img" src="{{ asset('img/gallery-3.jpeg') }}" alt="Gallery Img-5">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-2.jpeg') }}" alt="Gallery Img-2">
-            <p class="gallery-p">Living Room</p>
+            <img class ="gallery-img" src="{{ asset('img/gallery-4.jpeg') }}" alt="Gallery Img-2">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpeg') }}" alt="Gallery Img-6">
-            <p class="gallery-p">Dining Area</p>
+            <img class ="gallery-img" src="{{ asset('img/gallery-5.jpeg') }}" alt="Gallery Img-6">
+        </div>
+        <div class="gallery-div">
+            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpeg') }}" alt="Gallery Img-8">
+        </div>
+        <div class="gallery-div">
+            <img class ="gallery-img" src="{{ asset('img/gallery-7.jpeg') }}" alt="Gallery Img-8">
         </div>
         <div class="gallery-div">
             <img class ="gallery-img" src="{{ asset('img/gallery-8.jpeg') }}" alt="Gallery Img-8">
-            <p class="gallery-p">Patio</p>
         </div>
-        <!-- <img src="{{ asset('img/gallery-2.jpeg') }}" alt="Gallery Img-2">
-        <img src="{{ asset('img/gallery-3.jpeg') }}" alt="Gallery Img-3">
-        <img src="{{ asset('img/gallery-4.jpeg') }}" alt="Gallery Img-4">
-        <img src="{{ asset('img/gallery-5.jpeg') }}" alt="Gallery Img-5">
-        <img src="{{ asset('img/gallery-6.jpeg') }}" alt="Gallery Img-6">
-        <img src="{{ asset('img/gallery-7.jpeg') }}" alt="Gallery Img-7">
-        <img src="{{ asset('img/gallery-8.jpeg') }}" alt="Gallery Img-8">
-        <img src="{{ asset('img/gallery-9.jpeg') }}" alt="Gallery Img-9"> -->
     </div>
+    
     
 </section>
 @endsection

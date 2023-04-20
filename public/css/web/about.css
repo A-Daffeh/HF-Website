@@ -20,7 +20,7 @@
     }
     
     .hf-about-item {
-        width: calc((100% / 2) - 100px);
+        width: calc((100% / 2) - 30px);
         text-align: justify;
     }
     

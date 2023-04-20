@@ -1,9 +1,11 @@
 
 <header class="header">
-  <img src="{{ asset('img/projectlogo.jpg') }}" alt="HF Logo">
+  <span><img src="{{ asset('img/projectlogo.jpg') }}" alt="HF Logo"><strong>Hawa & Fanta's Adult Family Home LLC</strong></span>
+  
   <button class="nav-toggle" aria-label="toggle navigation">
     <span class="nav-toggle-icon"></span>
   </button>
+  
   <ul class="nav main-nav">
     <li class="nav-item"><a href="{{ route('hfhome') }}" class="{{ request()->is('/') ? 'active' : '' }}" data-content="Home">Home</a></li>
     <li class="nav-item"><a href="{{ route('services') }}" class="{{ request()->is('services') ? 'active' : '' }}" data-content="Services">Services</a></li>

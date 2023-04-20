@@ -28,9 +28,19 @@
             }
 
             #page-container {
-                background-color: rgb(255, 228, 233);
+                /* background-color: rgb(255, 228, 233); */
                 position: relative;
                 min-height: 100vh;
+            }
+
+            .h-blue {
+                color: #1773ea;
+            }
+
+            .h-first {
+                font-variant: small-caps;
+                text-decoration: underline;
+                text-align: center;
             }
         </style>
     </head>

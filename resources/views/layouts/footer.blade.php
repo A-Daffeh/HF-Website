@@ -1,7 +1,6 @@
 <footer id="footer">   
    <div class="hf-footer">
         <div class="hf-flinks">
-            <h3>Sites</h3>
             <ul>
                 <li><a href="{{ route('hfhome') }}" data-content="Home">Home</a></li>
                 <li><a href="{{ route('services') }}" data-content="Services">Services</a></li>

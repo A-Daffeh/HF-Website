@@ -1,6 +1,6 @@
 #footer {
     color: #ffffff;
-    background-color: #1c2d93;
+    background-color: #1773ea;
 }
 
 .hf-fcontact ul img {
@@ -30,8 +30,11 @@
     }
 
     .hf-footer h3 {
-        text-align: center;
         font-variant: small-caps;
+    }
+
+    .hf-fcontact h3 {
+        margin-left: 40px;
     }
 }
 
