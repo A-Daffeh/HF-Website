@@ -27,11 +27,11 @@
                 <input class = "hf-box" type="text" placeholder = "Enter your email" id = "email" title="(required)" name="email" required >
             </div>
 
-            <div class = "hf-comments"> 
-                <label class  = " hf-Labels" for="comments">Reason for contact</label>
-                <br>
-                <textarea class="comment-box" rows=500 name="reason"> </textarea>
-            </div>
+            <div class="hf-comments"> 
+  <label class="hf-Labels" for="comments">Reason for contact</label>
+  <br>
+  <textarea class="comment-box" rows="1500" cols="5" name="reason"></textarea>
+</div>
             
 
              <div class = "hf-submit">
