@@ -10,21 +10,21 @@
             @csrf
 
             <div class = "hf-name">
-                <label class = "hf-labels" for="fullname">Name</label>
+                <label class = "hf-labels" for="fullname">Name(John Doe)</label>
                 <br>
-                <input class = "hf-box" type="text" placeholder = "Enter your name" id = "fullname" name="full_name" title="(required)" required>
+                <input class = "hf-box" type="text" placeholder = "Enter your name" pattern="[a-zA-Z ]{1,30}" id = "fullname" name="full_name" title="(required)" required>
             </div>
 
             <div class = "hf-number">
-                <label class = "hf-Labels" for="phonenumber"> Phone Number</label>
+                <label class = "hf-Labels" for="phonenumber"> Phone Number(123-456-7890)</label>
                 <br>
-                <input class = "hf-box" type="text" placeholder = "Enter your phone number" id = "phonenumber" name="phone" title="(123-456-7890)" required>
+                <input class = "hf-box" type="text" placeholder = "Enter your phone number"   pattern="^\d{3}-\d{3}-\d{4}$" id = "phonenumber" name="phone" title="(123-456-7890)" required>
             </div>
 
             <div class = "hf-email">
-                <label class = "hf-Labels" for="email">Email </label>
+                <label class = "hf-Labels" for="email">Email(abc@email.com) </label>
                 <br>
-                <input class = "hf-box" type="text" placeholder = "Enter your email" id = "email" title="(required)" name="email" required >
+                <input class = "hf-box" type="text" placeholder = "Enter your email"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" id = "email" title="(required)" name="email" required >
             </div>
 
             <div class="hf-comments"> 
