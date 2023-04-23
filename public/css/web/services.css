@@ -83,7 +83,8 @@
     }
 
     .gallery-div {
-        width: 45%;
+        width: 48%;
+        height: 25%;
     }
 
     .hf-services-hist  {
@@ -96,9 +97,7 @@
 
 }
 
-.gallery-div {
-    position: relative;
-}
+
 
 .gallery-div::before {
     content: "HF HOME CARE";

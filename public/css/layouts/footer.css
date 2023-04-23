@@ -8,14 +8,24 @@
     height: 20px;
 }
 
+.location {
+   background-color: #ffffff;
+}
+
+.Phone {
+    background-color: #ffffff; 
+}
+
 .hf-fsocial ul img {
     width: 30px;
     height: 30px;
     padding: 0 3px;
+    
 }
 
 .hf-footer ul li {
     list-style-type: none;
+   
 }
 
 @media only screen and (min-width: 451px) {

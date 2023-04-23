@@ -4,6 +4,7 @@
         flex-flow: row wrap;
     }
     
+    
     .hf-about-cont, .hf-about-hist {
         width: 80%;
         margin: 0 auto;
@@ -48,6 +49,10 @@
     .hf-about-item-second {
         display: flex;
         flex-flow: column;
+    }
+
+    .h-blue {
+        text-align: center;
     }
 
     #a {

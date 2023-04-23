@@ -44,22 +44,22 @@
 
     <div class="gallery">
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-3.jpeg') }}" alt="Gallery Img-5">
+            <img class ="gallery-img" src="{{ asset('img/gallery-3.jpeg') }}" alt="Outdoor-Patio">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-4.jpeg') }}" alt="Gallery Img-2">
+            <img class ="gallery-img" src="{{ asset('img/gallery-4.jpeg') }}" alt="Dining-Room">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-5.jpeg') }}" alt="Gallery Img-6">
+            <img class ="gallery-img" src="{{ asset('img/gallery-5.jpeg') }}" alt="Kitchen">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpeg') }}" alt="Gallery Img-8">
+            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpeg') }}" alt="Dining-Room">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-7.jpeg') }}" alt="Gallery Img-8">
+            <img class ="gallery-img" src="{{ asset('img/gallery-7.jpeg') }}" alt="Backyard">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-8.jpeg') }}" alt="Gallery Img-8">
+            <img class ="gallery-img" src="{{ asset('img/gallery-8.jpeg') }}" alt="Backyard">
         </div>
     </div>
     

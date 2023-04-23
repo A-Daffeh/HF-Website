@@ -10,28 +10,27 @@
             @csrf
 
             <div class = "hf-name">
-                <label class = "hf-labels" for="fullname">Name(John Doe)</label>
+                <label class = "hf-labels" for="fullname">Name (John Doe)</label>
                 <br>
                 <input class = "hf-box" type="text" placeholder = "Enter your name" pattern="[a-zA-Z ]{1,30}" id = "fullname" name="full_name" title="(required)" required>
             </div>
 
             <div class = "hf-number">
-                <label class = "hf-Labels" for="phonenumber"> Phone Number(123-456-7890)</label>
+                <label class = "hf-Labels" for="phonenumber"> Phone Number (123-456-7890)</label>
                 <br>
                 <input class = "hf-box" type="text" placeholder = "Enter your phone number"   pattern="^\d{3}-\d{3}-\d{4}$" id = "phonenumber" name="phone" title="(123-456-7890)" required>
             </div>
 
             <div class = "hf-email">
-                <label class = "hf-Labels" for="email">Email(abc@email.com) </label>
-                <br>
+                <label class = "hf-Labels" for="email">Email (abc@email.com) </label>
+                
                 <input class = "hf-box" type="text" placeholder = "Enter your email"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" id = "email" title="(required)" name="email" required >
             </div>
 
             <div class="hf-comments"> 
-  <label class="hf-Labels" for="comments">Reason for contact</label>
-  <br>
-  <textarea class="comment-box" rows="1500" cols="5" name="reason"></textarea>
-</div>
+                 <label class="hf-Labels" for="comments">Reason for contact</label>
+                <textarea class="comment-box" rows="1500" cols="5" name="reason"></textarea>
+            </div>
             
 
              <div class = "hf-submit">
