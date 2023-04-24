@@ -13,7 +13,7 @@
             <h3>Contact</h3>
             <ul>
                 <li><img src="{{ asset('img/clock-icon.jfif') }}" alt="Clock Icon"> Open 24/7 Monday - Sunday</li>
-                <li><img class = "location" src="{{ asset('img/location-icon.jfif') }}" alt="Location Icon"> 18804 43rd Avenue W, Lynnwood WA 98036</li>
+                <li><a href="https://goo.gl/maps/VqxU9XzGpHJX22jn7" target="_blank"><img class = "location" src="{{ asset('img/location-icon.jfif') }}" alt="Location Icon"> 18804 43rd Avenue W, Lynnwood WA 98036</a></li>
                 <li><img class = "Phone" src="{{ asset('img/phone-icon.jfif') }}" alt="Phone Icon"> 425-835-0159</li>
             </ul>
         </div>

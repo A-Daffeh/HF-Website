@@ -7,16 +7,9 @@
         justify-content: space-between;
     }
     
-    .hf-about-cont, .hf-about-hist {
+    .hf-about-cont {
         width: 80%;
         margin: 0 auto;
-    }
-    
-    .hf-about-hist h2 {
-        text-align: center;
-        font-size: 30px;
-        line-height: 30px;
-        font-variant: small-caps;
     }
     
     .hf-about-item {
@@ -50,10 +43,6 @@
 .hf-quote h2 {
     font-variant: small-caps;
     text-align: center;
-}
-
-.hf-about-hist {
-    font-variant: small-caps;
 }
 
 .hf-about-cont {

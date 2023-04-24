@@ -2,10 +2,6 @@
 
 @section('content')
 <section class="hf-sections">
-    <div class="hf-about-hist">
-        <h1 class="h-first">Our History</h1>
-    </div>
-    
 
     <div class="hf-about-cont">
         <div class="hf-about-item">

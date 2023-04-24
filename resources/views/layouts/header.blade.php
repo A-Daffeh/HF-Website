@@ -1,7 +1,7 @@
 
 <header class="header">
 
-  <img src="{{ asset('img/HF-Logo.jpg') }}" alt="HF Logo">
+  <img src="{{ asset('img/HF-Logo.jfif') }}" alt="HF Logo">
   
   <button class="nav-toggle" aria-label="toggle navigation">
     <span class="nav-toggle-icon"></span>

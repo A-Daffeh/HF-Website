@@ -39,7 +39,6 @@
 
             .h-first {
                 font-variant: small-caps;
-                text-decoration: underline;
                 text-align: center;
             }
 
