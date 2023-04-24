@@ -10,7 +10,7 @@
                 <div class="card-body">
                     {{ __('Please confirm your password before continuing.') }}
 
-                    <form method="POST" action="{{ route('password.confirm') }}">
+                    <form method="POST" action="{{ route('password.confirm') }}"  class="hf-form">
                         @csrf
 
                         <div class="row mb-3">
@@ -27,7 +27,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-0">
+                        <div class="hf-name">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Confirm Password') }}
