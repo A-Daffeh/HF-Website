@@ -56,5 +56,9 @@
     .hf-footer h3 {
         font-variant: small-caps;
     }
+
+    .hf-fcontact img {
+        display: inline;
+    }
         
 }
