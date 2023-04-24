@@ -60,10 +60,10 @@
     }
 
     .hf-services-item {
-        width: calc((100% / 2) - 6px);
+        width: calc((100% / 2) - 4px);
         text-align: center;
         background-color: #9fdbeb;
-        margin: 3px;
+        margin: 2px;
         border-radius: 20px;
         font-size: small;
     }
@@ -77,16 +77,6 @@
         gap: 10px;
     }
 
-    .gallery-p {
-        text-align: center;
-        margin-top: -1px;
-    }
-
-    .gallery-div {
-        width: 48%;
-        height: 25%;
-    }
-
     .hf-services-hist  {
         text-align: center;
     }
@@ -95,24 +85,5 @@
         font-size: 30px;
     }
 
-}
-
-
-
-.gallery-div::before {
-    content: "HF HOME CARE";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity .2s ease;
-    color: #fff;
-    text-align: center;
-}
-
-.gallery-div:hover::before {
-    opacity: 1;
-    transform: opacity .2s ease;
 }
 

@@ -42,6 +42,10 @@
                 text-decoration: underline;
                 text-align: center;
             }
+
+            .h-red {
+                color: red;
+            }
         </style>
     </head>
     <body class="antialiased">

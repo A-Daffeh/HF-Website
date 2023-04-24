@@ -1,22 +1,15 @@
 /* desktop version */
-.header strong {
-  font-variant: small-caps;
-}
 @media screen and (min-width: 451px) {
 
     /*i think this goes here similiar to the contact.css one */
 
     .header {
-        background-color: #1773ea;
+        background-color: #008DEF;
         color:#ffffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
         
-    }
-
-    .header strong {
-      font-size: 20px;
     }
 
     .nav-toggle {
@@ -43,8 +36,8 @@
 }
 
 .header img {
-    width: 332px;
-    height: 110px;
+    width: 300px;
+    height: 90px;
 
 }
 
@@ -75,7 +68,7 @@
       flex-direction: column;
       align-items: flex-start;
       padding: 10px;
-      background-color: hsl(231, 68%, 34%); /* although its blue, you have to reposition the background strip */
+      background-color: #008DEF;
       color:#ffffff;
       text-align:center;
     }
@@ -153,7 +146,7 @@
       display: block;
       margin: 10px 0 0 0;
       padding: 10px;
-      background-color: #1c2d93;
+      background-color: #008DEF;
     }
   
     .nav a {

@@ -1,7 +1,7 @@
 
 <header class="header">
 
-  <span><img src="{{ asset('img/HF-Logo.jpg') }}" alt="HF Logo"><strong>Hawa & Fanta's Adult Family Home LLC</strong></span>
+  <img src="{{ asset('img/HF-Logo.jpg') }}" alt="HF Logo">
   
   <button class="nav-toggle" aria-label="toggle navigation">
     <span class="nav-toggle-icon"></span>

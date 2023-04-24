@@ -3,6 +3,7 @@
 @section('content')
 <section class="hf-sections hf-login">
     <div class="hf-contactMain">
+        <h2 class="h-red">Authorized Access Only</h2>
         <form method="POST" action="{{ route('login') }}" class="hf-form">
             @csrf
 
