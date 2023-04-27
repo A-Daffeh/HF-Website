@@ -58,7 +58,7 @@
     border-radius: 15px;
     width: 120px;
     height: 35px;
-    background-color: #9fdbeb;
+    background-color: #87C253;
     border-style: solid;
   }
   
@@ -126,7 +126,7 @@
     border-radius: 15px;
     width: 120px;
     height: 35px;
-    background-color: #9fdbeb;
+    background-color: #87C253;
     border-style: solid;
   }
 
@@ -144,7 +144,7 @@
   }
 
   .hf-login-submit {
-    background-color: #9fdbeb;
+    background-color: #87C253;
     padding: 10px 15px;
     margin-bottom: 10px;
   }

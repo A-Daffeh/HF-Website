@@ -2,10 +2,11 @@
    <div class="hf-footer">
         <div class="hf-flinks">
             <ul>
-                <li><a href="{{ route('hfhome') }}" data-content="Home">Home</a></li>
-                <li><a href="{{ route('services') }}" data-content="Services">Services</a></li>
-                <li><a href="{{ route('about-us') }}" data-content="About Us">About Us</a></li>
-                <li><a href="{{ route('contact') }}" data-content="Contact">Contact</a></li>
+                <li><a href="{{ route('hfhome') }}" class="{{ request()->is('/') ? 'active' : '' }}" data-content="Home">Home</a></li>
+                <li><a href="{{ route('services') }}" class="{{ request()->is('services') ? 'active' : '' }}" data-content="Services">Services</a></li>
+                <li><a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : '' }}" data-content="About Us">About Us</a></li>
+                <li><a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}" data-content="Contact">Contact</a></li>
+                <li><a href="{{ route('login') }}" class="{{ request()->is('login') ? 'active' : '' }}" data-content="Log in">Log In</a></li>
             </ul>
         </div>
 
@@ -21,7 +22,7 @@
         <div class="hf-fsocial">
             <h3>Social Media</h3>
             <ul>
-                <li><a href=""><img src="{{ asset('img/facebook-icon.png') }}" alt="Facebook Icon"></a></li>
+                <li><a href="https://www.facebook.com/100092269598066/posts/105995882486065/?d=w&substory_index=757886595887939&mibextid=jf9HGS" target="_blank"><img src="{{ asset('img/facebook-icon.png') }}" alt="Facebook Icon"></a></li>
             </ul>
         </div>
     </div>

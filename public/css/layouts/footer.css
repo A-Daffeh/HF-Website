@@ -1,6 +1,6 @@
 #footer {
     color: #ffffff;
-    background-color: #008DEF;
+    background-color: #006833;
 }
 
 .hf-fcontact ul img {
@@ -26,6 +26,14 @@
 .hf-footer ul li {
     list-style-type: none;
    
+}
+
+.hf-flinks a.active,
+.hf-flinks a.active:hover {
+  color:#006833;
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 451px) {

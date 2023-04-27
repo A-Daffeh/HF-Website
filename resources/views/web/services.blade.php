@@ -39,27 +39,27 @@
 
     
     <div class="hf-services-hist">
-        <h1 class="h-first">Checkout Our Place</h1>
+        <h2 class="h-blue">Checkout Our Place</h2>
     </div>
 
     <div class="gallery">
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-3.jpeg') }}" alt="Outdoor-Patio">
+            <img class ="gallery-img" src="{{ asset('img/gallery-3.jfif') }}" alt="Outdoor-Patio">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-4.jpeg') }}" alt="Dining-Room">
+            <img class ="gallery-img" src="{{ asset('img/gallery-4.jfif') }}" alt="Dining-Room">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-5.jpeg') }}" alt="Kitchen">
+            <img class ="gallery-img" src="{{ asset('img/gallery-5.jfif') }}" alt="Kitchen">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpeg') }}" alt="Dining-Room">
+            <img class ="gallery-img" src="{{ asset('img/gallery-6.jfif') }}" alt="Dining-Room">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-7.jpeg') }}" alt="Backyard">
+            <img class ="gallery-img" src="{{ asset('img/gallery-7.jfif') }}" alt="Backyard">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-8.jpeg') }}" alt="Backyard">
+            <img class ="gallery-img" src="{{ asset('img/gallery-8.jfif') }}" alt="Backyard">
         </div>
     </div>
     

@@ -34,12 +34,14 @@
             }
 
             .h-blue {
-                color: #1773ea;
+                color: #87C253;
             }
 
             .h-first {
                 font-variant: small-caps;
                 text-align: center;
+                color: #006833;
+                font-size: 30px;
             }
 
             .h-red {

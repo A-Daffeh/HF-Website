@@ -3,7 +3,7 @@
 @section('content')
 <section class="hf-sections">
     <div class="hf-about-hist">
-        <h1 class="h-first">Welcome To Your Home</h1>
+        <h1 class="h-first">Welcome To H&F Adult Family Home</h1>
     </div>
 
     <div class="hf-about-cont">
