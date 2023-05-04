@@ -10,7 +10,7 @@
                 Our mission at Hawa and Fanta's Adult Family Home is to provide for the unmet needs of people in our 
                 communities and honor our employees who serve them.
             </p>
-            <img src="{{ asset('img/about-img-1.jpeg') }}" alt="About Img-1">
+            <img src="{{ asset('img/home-1.jfif') }}" alt="About Img-1">
         </div>
 
         <div class="hf-about-item">
@@ -19,7 +19,7 @@
                 We offer genuine compassion, care, recovery and hope. We truly believe that everyone deserves to live a full life,
                 and it is our goal to ensure that it can happen.
             </p>
-            <img src="{{ asset('img/about-img-2.jpeg') }}" alt="About Img-2">
+            <img class ="gallery-img" src="{{ asset('img/gallery-7.jfif') }}" alt="About Img-2">
         </div>
     </div>
 

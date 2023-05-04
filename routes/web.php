@@ -6,6 +6,8 @@ use App\Http\Controllers\HFHomeController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +29,8 @@ Route::group([], function() {
     Route::get('/contact/success', [ContactController::class, 'contactSuccess'])->name('contact.success');
     Route::get('/contact/{id}/show', [ContactController::class, 'show'])->name('contact.show');
     Route::delete('/contact/{id}/delete', [ContactController::class, 'destroy'])->name('contact.destroy');
+    Route::get("/send", [MailController::class, 'sendMail'])->name('contact.send');
+    Route::post("/forgot-password", [ForgotPasswordController::class, 'forgot'])->name('forgot-password');
 });
 
 Auth::routes();

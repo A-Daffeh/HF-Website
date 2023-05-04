@@ -149,7 +149,15 @@
     margin-bottom: 10px;
   }
 
-.hf-submit input {
+.hf-submit input, .btn-link, .hf-login-submit {
   cursor: pointer;
+}
+
+.btn-link:hover {
+  color: blue;
+}
+
+.alert-error {
+  color: red;
 }
 

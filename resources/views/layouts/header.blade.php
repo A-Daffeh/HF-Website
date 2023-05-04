@@ -12,7 +12,7 @@
     <li class="nav-item"><a href="{{ route('services') }}" class="{{ request()->is('services') ? 'active' : '' }}" data-content="Services">Services</a></li>
     <li class="nav-item"><a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : '' }}" data-content="About Us">About Us</a></li>
     <li class="nav-item"><a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}" data-content="Contact">Contact</a></li>
-    <li class="nav-item"><a href="{{ route('login') }}" class="{{ request()->is('login') ? 'active' : '' }}" data-content="Log in">Log In</a></li>
+    <li class="nav-item"><a href="{{ route('login') }}" class="{{ request()->is('login') ? 'active' : '' }}" data-content="Log in">Admin</a></li>
   </ul>
 </header>
 

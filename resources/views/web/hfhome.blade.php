@@ -3,7 +3,7 @@
 @section('content')
 <section class="hf-sections">
     <div class="hf-about-hist">
-        <h1 class="h-first">Welcome To H&F Adult Family Home</h1>
+        <h1 class="h-first">Welcome To HF Adult Family Home</h1>
     </div>
 
     <div class="hf-about-cont">
@@ -27,7 +27,7 @@
             </p>
         </div>
         <div class="hf-about-item">
-            <img src="{{ asset('img/home-1.jfif') }}" alt="Home 1">
+            <img src="{{ asset('img/home-1.jpg') }}" alt="Home 1">
         </div>
         <div class="hf-about-item">
             <img src="{{ asset('img/home-2.jfif') }}" alt="Home 2">

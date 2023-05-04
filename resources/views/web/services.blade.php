@@ -53,10 +53,10 @@
             <img class ="gallery-img" src="{{ asset('img/gallery-5.jfif') }}" alt="Kitchen">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-6.jfif') }}" alt="Dining-Room">
+            <img class ="gallery-img" src="{{ asset('img/gallery-6.jpg') }}" alt="Dining-Room">
         </div>
         <div class="gallery-div">
-            <img class ="gallery-img" src="{{ asset('img/gallery-7.jfif') }}" alt="Backyard">
+            <img class ="gallery-img" src="{{ asset('img/gallery-7.jpg') }}" alt="Backyard">
         </div>
         <div class="gallery-div">
             <img class ="gallery-img" src="{{ asset('img/gallery-8.jfif') }}" alt="Backyard">

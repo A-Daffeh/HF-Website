@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ConfirmContact;
 
 class ContactController extends Controller
 {
@@ -26,13 +28,14 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+        
         $request->validate([
             'full_name' => 'required',
             'phone' => 'required',
             'email' => ['required', 'string', 'email', 'max:255', 'unique:contacts'],
             'reason' => 'required'
         ]);
-    
+        $name = $request->full_name;
         Contact::create($request->all());
         
         return redirect()->route('contact.success');

@@ -25,9 +25,6 @@
     .gallery-div {
         width: calc((100% / 3) - 30px);
         margin: 15px;
-        border-top: 1px solid #87C253;
-        border-left: 1px solid #87C253;
-        border-right: 1px solid #87C253;
     }
     
     
