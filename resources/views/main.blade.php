@@ -47,6 +47,11 @@
             .h-red {
                 color: red;
             }
+
+            #content-wrap {
+                width: 90%;
+                margin: auto;
+            }
         </style>
     </head>
     <body class="antialiased">
