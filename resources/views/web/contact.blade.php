@@ -6,7 +6,7 @@
 <section class = "hf-sections">
     <div class = "hf-contactMain">
         <h1 class="h-first hf-he hf-contact-header hf-center">Interested in Contacting us? </h1>
-        <p class = "hf-he hf-contact-para">For any questions regarding H&F Adult Family Home LLC,<br> please complete this form </p>
+        <p class = "hf-he hf-contact-para">For any questions regarding HF Adult Family Home LLC,<br> please complete this form </p>
 
         <form class = "hf-form" action={{ route('contact.create') }} method="POST">
             @csrf

@@ -66,14 +66,7 @@
     font-size: 15px;
   }
 
-  .hf-box[required] {
-    border: 2px solid red;
-  }
-  
-  textarea.comment-box:required:invalid {
-    border: 2px solid red;
-  }
-  
+
   
   
 }
@@ -159,20 +152,11 @@
     margin-bottom: 10px;
   }
 
-.hf-submit input, .btn-link, .hf-login-submit {
-  cursor: pointer;
-}
+
 
 input::placeholder {
   font-size: 15px;
 }
 
-.hf-box[required] {
-  border: 2px solid red;
-}
-
-textarea.comment-box:required:invalid {
-  border: 2px solid red;
-}
 
 
