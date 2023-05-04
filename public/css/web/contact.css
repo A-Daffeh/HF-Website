@@ -65,6 +65,16 @@
   input::placeholder {
     font-size: 15px;
   }
+
+  .hf-box[required] {
+    border: 2px solid red;
+  }
+  
+  textarea.comment-box:required:invalid {
+    border: 2px solid red;
+  }
+  
+  
   
 }
 
@@ -153,11 +163,16 @@
   cursor: pointer;
 }
 
-.btn-link:hover {
-  color: blue;
+input::placeholder {
+  font-size: 15px;
 }
 
-.alert-error {
-  color: red;
+.hf-box[required] {
+  border: 2px solid red;
 }
+
+textarea.comment-box:required:invalid {
+  border: 2px solid red;
+}
+
 
