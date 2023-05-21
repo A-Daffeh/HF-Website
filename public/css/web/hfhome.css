@@ -25,6 +25,10 @@
         width: 100%;
         height: 300px;
     }
+
+    .hf-about-item-second, .responsive {
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 450px) {
